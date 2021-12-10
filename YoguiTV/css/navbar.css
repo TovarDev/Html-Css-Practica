@@ -13,14 +13,21 @@
 }
 
 .navbar-list {
-    width: 100%;    
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    justify-content: right;
-    margin-right: 30px;
+   display: none;
     
 }
+
+@media (min-width: 768px) {
+    .navbar-list{
+        width: 100%;    
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        justify-content: right;
+        margin-right: 30px;
+    }
+}
+
 .navbar a {
     text-decoration: none;
     color: black;
