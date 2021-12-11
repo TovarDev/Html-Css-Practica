@@ -1,0 +1,6 @@
+.novedades {
+    display: grid;
+    background-color: rgb(178, 207, 149);
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-auto-rows: auto;
+}

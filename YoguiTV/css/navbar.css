@@ -1,5 +1,6 @@
 .navbar {
     
+    color: black;
     background-color: rgb(63, 63, 158);
     height: 40;
     width: 100%;
@@ -12,14 +13,13 @@
     
 }
 
-/*Menu checkbox*/
 .menu-label, #menu-checkbox{
        
     display: flex;
     top: 0px;           
-    width: 100%;
-    right: 0px;
-    align-items: right;
+    
+    right: 0px;    
+    align-items: center;
     flex-direction: row;
     justify-content: right;
     margin-right: 30px; 
@@ -48,17 +48,14 @@
   }
 
 @media (min-width: 768px) {
-    .navbar-list{
-        width: 0;    
-        display: flex;
+    .navbar-list{           
+        display: flex;           
         top: 0px;
         gap: 20px;        
         height: 40px;        
         flex-direction: row;
         justify-content: right;
-        margin-right: 30px; 
-        margin-left: 200px;
-             
+        margin-right: 30px;    
     }
     .menu-label{
         display: none;
@@ -72,7 +69,16 @@
 
 .navbar img{
     height: 40px;
-    width: 35px;
-    margin-left: 40px;
+    width: 35px;    
+    margin: 0;
     
+}
+.logo {
+    padding-left:  40px;
+}
+.pagename{
+    font-size: 2rem;    
+    flex: 1;
+    display: flex;
+    justify-content: left;
 }
