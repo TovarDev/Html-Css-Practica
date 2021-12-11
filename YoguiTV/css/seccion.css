@@ -1,6 +1,7 @@
-.novedades {
+.novedades,.series,.peliculas,.favoritos {
     display: grid;
-    background-color: rgb(178, 207, 149);
-    grid-template-columns: repeat(auto-fit, 300px);
+    background-color: rgb(28, 28, 78);
+    grid-template-columns: repeat(auto-fit, 375px);
     grid-auto-rows: auto;
+    gap: 1rem;
 }
