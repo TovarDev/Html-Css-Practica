@@ -1,6 +1,6 @@
 .navbar {
     
-    background-color: gray;
+    background-color: rgb(63, 63, 158);
     height: 40;
     width: 100%;
     top: 0;
@@ -32,13 +32,13 @@
 
 .navbar-list {
     margin: 0;
-    width: 100px;
-    background-color: grey;
+    width: 90px;
+    background-color:rgb(63, 63, 158);
     color: black;
     list-style-type: none;
     padding: 0;  
     position: absolute;
-    top: 40px;
+    top: 43px;
     right: 0px;
     height: 100px;
     display: none;  
@@ -49,15 +49,15 @@
 
 @media (min-width: 768px) {
     .navbar-list{
-        width: 100%;    
+        width: 0;    
         display: flex;
         top: 0px;
         gap: 20px;        
-        height: 40px;
-        align-items: center;
+        height: 40px;        
         flex-direction: row;
         justify-content: right;
         margin-right: 30px; 
+        margin-left: 200px;
              
     }
     .menu-label{
@@ -70,7 +70,7 @@
     color: black;
   }
 
-.logo img{
+.navbar img{
     height: 40px;
     width: 35px;
     margin-left: 40px;
