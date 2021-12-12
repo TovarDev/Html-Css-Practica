@@ -12,6 +12,10 @@
     }
 }
 
+#fav-checkbox {
+    display: none;
+}
+
 .fav-vacio img, .fav-lleno{
     width: 1.5rem;
     height: auto;    
