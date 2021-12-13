@@ -1,4 +1,4 @@
-.novedades,.series,.peliculas,.favoritos {
+section {
     display: grid;
     background-color: rgb(28, 28, 78);
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
